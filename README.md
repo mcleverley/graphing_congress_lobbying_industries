@@ -10,10 +10,12 @@ Campaign donations from lobbying groups for the 2018 115th Congress, courtesy of
 - Convert to graph in NetworkX
   - Visualize in Gephi
   - Push to Neo4J database for explorative querying
+  - Run community algos in neo
 
 ### Currently
+All the data's in Neo, and I've been messing around with graphical EDA, plumbing second and third-depth relationships between nodes.
 The process has been successfully completed, but needs improvement in several areas.
-- Fixing mismatched years in id_scrape URL (API calling 2018 congressmembers using IDs from 2020 is not great)
-- Importing correct labels to Neo4J
-  - 'neonx' networkx-to-neo4j library is helpful, but can mishandle edge and node labels
-  - currently exploring Py2neo as alternative option
+- Now working on:
+    - community detection algorithms in Neo, possible overall visualization in Gephi
+    - hosting Neo server remotely for others to query
+    - create frontend for non-tech users to query congresspeople
