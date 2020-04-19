@@ -14,6 +14,7 @@ Campaign donations from lobbying groups for the 2018 115th Congress, courtesy of
   - Visualize in Gephi
   - Push to Neo4J database for explorative querying
   - Run community algos in neo
+  
 
 ### Currently
 - Data uploaded to Neo
@@ -24,3 +25,8 @@ Campaign donations from lobbying groups for the 2018 115th Congress, courtesy of
     - transfer to Gephi for cleaner big-picture visualization
     - hosting Neo server remotely on AWS for others to query
     - create frontend for non-tech users to query congresspeople
+    
+### Blog posts
+Graphing, querying in neo, community detection algorithms
+https://medium.com/@mark.s.cleverley/graphing-congressional-lobbying-549e9e5ecc87
+https://medium.com/@mark.s.cleverley/querying-congressional-lobbying-in-neo4j-25cecc8a7ce8https://medium.com/@mark.s.cleverley/algorithmic-detection-in-congressional-lobbying-fdb4a8e98ada
